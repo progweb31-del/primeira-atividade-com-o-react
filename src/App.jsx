@@ -92,9 +92,6 @@ function App() {
       uma função chamada solicitarExclusao para a Tabela." */}
       <Tabela dados={visitantes} onRemover={solicitarExclusao} />
 
-      {/* Imagem ilustrativa */}
-      <Imagem />
-
       {/* Modal (janela) de confirmação */}
       {mostrarModal && (
         <ModalConfirmacao
