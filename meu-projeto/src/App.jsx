@@ -4,9 +4,6 @@ import React, { useState } from 'react';
 // Importa os componentes que serão usados na página
 import Formulario from './components/Formulario';
 import Tabela from './components/Tabela';
-import Imagem from './components/Imagem';
-import Imagem2 from './components/Imagem2';
-import Imagem3 from './components/Imagem3';
 import ModalConfirmacao from './components/ModalConfirmacao';
 
 // Importa o estilo CSS geral do site
@@ -98,12 +95,6 @@ function App() {
       uma função chamada solicitarExclusao para a Tabela." */}
       
       {/* Imagem ilustrativa */}
-      <Imagem />
-
-      <Imagem2 />
-
-      <Imagem3 />
-      
 
       {/* Modal (janela) de confirmação */}
       {mostrarModal && (
@@ -113,8 +104,10 @@ function App() {
           onCancelar={cancelarExclusao}
         />
       )}
+      
     </div>
   );
+
 }
 
 export default App;
