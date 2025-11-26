@@ -2,9 +2,9 @@
 import React, { useState } from 'react';
 
 // Importa os componentes que serão usados na página
-import Formulario from './components/Formulario';
 import Tabela from './components/Tabela';
-import ModalConfirmacao from './components/ModalConfirmacao';
+import ModalConfirmacao from './components/ModalConfirmacao'
+
 
 // Importa o estilo CSS geral do site
 import './App.css';
@@ -79,7 +79,6 @@ function App() {
       {mensagemSucesso && <p className="mensagem-sucesso">{mensagemSucesso}</p>}
       
       <Tabela dados={visitantes} onRemover={solicitarExclusao} />
-      <Formulario onAdicionar={adicionarVisitante} />
       {/* Formulário para adicionar visitantes */}
       {/* Formulário para adicionar visitantes */}
       {/* Quando um componente (como <Formulario />) precisa usar uma função que está declarada em outro componente (como App.jsx), é necessário **passar essa função como uma props**. Isso acontece porque o componente filho **não tem acesso direto** às funções do componente pai.*/}
@@ -95,7 +94,7 @@ function App() {
       uma função chamada solicitarExclusao para a Tabela." */}
       
       {/* Imagem ilustrativa */}
-
+   
       {/* Modal (janela) de confirmação */}
       {mostrarModal && (
         <ModalConfirmacao

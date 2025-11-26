@@ -1,4 +1,4 @@
-tbody{
-    border-color: black;
-    border: 10px;
+td, th{
+    background-color:beige;
+    border: 2px solid;
 }

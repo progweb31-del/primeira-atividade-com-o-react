@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Aqui estamos importando a imagem que está em 'src/assets/img/night.jpg'
-import react from '../assets/react.svg';
+
 
 function Imagem() {
   // Essa forma de usar imagens deixa seu código mais limpo, e se quiser trocar a imagem, só muda a linha da importação!
