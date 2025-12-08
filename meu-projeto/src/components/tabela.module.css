@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    
+}
+.divs{
+    background-color:beige;
+    border: 2px solid;
+    border-radius: 3%;
+    margin-right: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+}

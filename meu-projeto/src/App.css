@@ -1,15 +1,22 @@
 /* Estilo geral do site */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f3f3f3;
+  background-color: #e9e6e6;
   margin: 0;
   padding: 0;
 }
-
+.sla{
+  display: flexbox;
+  align-items: right;
+  background-color: #f3f3f3;
+  box-shadow: black ;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 h1 {
-  text-align: center;
   color: #333;
-  margin-top: 20px;
+  margin-left: 20px;
+  align-self: left;
 }
 
 /* Estilo do formulário */
