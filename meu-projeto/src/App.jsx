@@ -1,28 +1,23 @@
-// Importa o React e a função useState para controlar estados
-import React, { useState } from 'react';
-// Importa os componentes que serão usados na página
+import React, { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Tabela from './components/Tabela';
+import "./pages/Home"
+import "./pages/Pag2"
 
-// Importa o estilo CSS geral do site
 import './App.css';
+import Pag2 from './pages/Pag2';
+import Home from './pages/Home';
 
 function App() {
 
-  return (
-    <div>
-      <div className='sla'>
-      <div className='p0'><h1>Bem-vindo a loja de roupas</h1></div>
-      <div className='p1'><p>inicio</p></div>
-      <div className='p2'><p>sobre</p></div>
-      <div className='p3'><a href=""></a></div>
-      </div>
-      <p>Neste lugar voce encontrará variedades de roupas, acessorios, calçados, etc...</p>
-
-      <Tabela/>
-
-    </div>
-  );
-
+  return(
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/Pag2' element={<Pag2/>}/>
+    </Routes>
+    </BrowserRouter>
+  )
+ 
 }
 
 export default App;
