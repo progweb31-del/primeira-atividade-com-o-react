@@ -1,6 +1,5 @@
 .container{
     display: flex;
-    
 }
 .divs{
     background-color:beige;
@@ -9,4 +8,5 @@
     margin-right: 5px;
     padding-right: 50px;
     padding-left: 50px;
+    text-align: center;
 }

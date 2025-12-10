@@ -6,17 +6,37 @@ body {
   padding: 0;
 }
 .sla{
-  display: flexbox;
-  align-items: right;
+  padding-top: 4%;
+  display: flex;
   background-color: #f3f3f3;
   box-shadow: black ;
   padding-top: 5px;
+  align-items: center;
   padding-bottom: 5px;
+  gap: 10px;;
+}
+.p0{
+  width: 90%;
+}
+.p1{
+  background-color: aqua;
+  height: 40px;
+}
+.p2{
+  background-color: #155724;
+  height: 40px;
+}
+.p3{
+  background-color: #ccc;
+  height: 40px;
+}
+.p3:hover{
+  text-decoration: none;
 }
 h1 {
   color: #333;
   margin-left: 20px;
-  align-self: left;
+
 }
 
 /* Estilo do formulário */
@@ -28,7 +48,6 @@ form {
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
   display: flex;
-  flex-direction: column;
   gap: 10px;
 }
 
