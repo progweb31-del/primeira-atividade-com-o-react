@@ -7,7 +7,7 @@
     <title>contato</title>
 </head>
 <body>
-    <form action="./index.html" method="post">
+    <form action="./index.html" method="get">
         <h1 style="text-align: center;">Pagina de contato</h1>
         <label for="nome">Nome:</label><br>
         <input type="text"><br><br>
@@ -23,5 +23,14 @@
 
         <button type="submit" id="botao">enviar</button>
     </form>
+    <script>
+    function b(){
+        alert("Parabéns os dados foram enviados com sucesso")
+    }
+
+    const botao = document.getElementById('botao');
+
+    botao.addEventListener('click', b)
+    </script>
 </body>
 </html>
